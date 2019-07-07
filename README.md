@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version: 2.6.3
 
-Things you may want to cover:
+Rails version: 6.0.0.rc1
 
-* Ruby version
+This is a basic new rails app. I added an external_db config to database.yml, as well as an intializer with env variables.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To quickly see how the external db url is not being used, you can run the rake task: rake db_config
